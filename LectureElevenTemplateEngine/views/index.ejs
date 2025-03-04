@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJS Setup</title>
+    <!-- <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+    </style> -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>We are learning EJS </h1>
+    <ul>
+       <% products.forEach((item) => {%>
+        <li><%= item.title%>, Price:- <%= item.price%></li>
+      <% }) %>
+    </ul>
+</body>
+</html>

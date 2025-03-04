@@ -1,0 +1,10 @@
+MongoDB Atlas ID & Password
+
+Username:- parthupanchal9
+Password:- oFpYMIoPxxh9uifZ
+
+*Mongoose connect DB Url*
+  "mongodb+srv://parthupanchal9:oFpYMIoPxxh9uifZ@cluster0.habwl.mongodb.net/",
+    {
+      dbName: "NodeJs_Learning",
+    }
